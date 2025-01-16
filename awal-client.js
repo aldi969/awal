@@ -19,6 +19,9 @@ document.querySelectorAll('.car-info').forEach(function(carInfo) {
     });
 });
 
-document.getElementById('profileLogo').addEventListener('click', function() {
-    window.location.href = 'awal-server.html';
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('profileLogo').addEventListener('click', function() {
+        window.location.href = 'awal-server.html';
+    });
 });
+
